@@ -373,10 +373,9 @@ const AppIcon = () => (
 
 const Layout = (props: { children: any, user?: User }) => (
   <html lang="en">
-    <head>
-      <title>Weekli</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <head>
       <title>Weekli | House Updates</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="description" content="A simple board for tracking weekly wins, goals, and improvements." />
       <meta property="og:title" content="Weekli" />
       <meta property="og:description" content="A simple board for tracking weekly wins, goals, and improvements." />
