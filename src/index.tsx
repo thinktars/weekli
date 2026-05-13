@@ -472,17 +472,6 @@ app.get('/', async (c) => {
           </div>
         )
       })}
-    <form method="POST" action="/admin/password">
-        <div class="form-header">
-          <h2>Change Password</h2>
-          <p>Update the password for your account.</p>
-        </div>
-        <label>
-          New Password
-          <input type="password" name="new_password" required autocomplete="off" />
-        </label>
-        <button type="submit">Update Password</button>
-      </form>
     </Layout>
   )
 })
@@ -574,6 +563,18 @@ app.get('/admin', async (c) => {
           <input type="text" name="invite_username" required autocomplete="off" placeholder="e.g. alice" />
         </label>
         <button type="submit">Create Link</button>
+      </form>
+
+      <form method="POST" action="/admin/password" style="margin-top: 2rem;">
+        <div class="form-header">
+          <h2>Change Password</h2>
+          <p>Update the password for your account.</p>
+        </div>
+        <label>
+          New Password
+          <input type="password" name="new_password" required autocomplete="off" />
+        </label>
+        <button type="submit">Update Password</button>
       </form>
     </Layout>
   )
