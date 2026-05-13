@@ -1,0 +1,11 @@
+{
+  "name": "win-goal-improve",
+  "main": "src/index.tsx",
+  "compatibility_date": "2024-04-05",
+  "kv_namespaces": [
+    {
+      "binding": "WGI_DATA",
+      "id": "82b5c46559b64a2f9314579f7148e259"
+    }
+  ]
+}
